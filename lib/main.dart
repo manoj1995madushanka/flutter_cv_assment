@@ -23,9 +23,19 @@ class MyApp extends StatelessWidget {
               Text(
                 'Manoj Madushanka',
                 style: TextStyle(
+                    fontFamily: 'Pacifico', // font family in pubSpec
                     fontWeight: FontWeight.bold,
                     fontSize: 40.0,
                     color: Colors.white),
+              ),
+              Text(
+                'Software Engineer',
+                style: TextStyle(
+                    fontFamily: 'Source Sans Pro', // font family in pubSpec
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20.0,
+                    color: Colors.teal[100],
+                letterSpacing: 2.5),
               )
             ],
           ),
