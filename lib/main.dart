@@ -9,6 +9,28 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.white30,
+        body: SafeArea(
+          child: Column(
+            children: [
+              CircleAvatar(
+                radius: 50.0,
+                //backgroundColor: Colors.blue,
+                backgroundImage: AssetImage('images/me.jpg'),
+              ),
+              Text(
+                'Manoj Madushanka',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 40.0,
+                    color: Colors.white),
+              )
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
