@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.cyan,
         body: SafeArea(
           child: Column(
+            mainAxisSize:MainAxisSize.min,// this will limit column size to minimum
             children: [
               CircleAvatar(
                 radius: 50.0,
