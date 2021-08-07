@@ -42,49 +42,53 @@ class MyApp extends StatelessWidget {
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.all(10.0),
-                padding: EdgeInsets.symmetric(horizontal: 5.0,vertical: 2.0),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone,
-                      size: 20.0,
-                      color: Colors.amber,
-                    ),
-                    SizedBox(
-                      width: 20.0,
-                    ),
-                    Text(
-                      '0712345678',
-                      style: TextStyle(
-                          fontSize: 20.0,
-                          fontFamily: 'Source Sans Pro',
-                          color: Colors.teal.shade900),
-                    )
-                  ],
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 5.0,vertical: 2.0),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.phone,
+                        size: 20.0,
+                        color: Colors.amber,
+                      ),
+                      SizedBox(
+                        width: 20.0,
+                      ),
+                      Text(
+                        '0712345678',
+                        style: TextStyle(
+                            fontSize: 20.0,
+                            fontFamily: 'Source Sans Pro',
+                            color: Colors.teal.shade900),
+                      )
+                    ],
+                  ),
                 ),
               ),
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.all(10.0),
-                padding: EdgeInsets.symmetric(horizontal: 5.0,vertical: 2.0),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.email,
-                      size: 20.0,
-                      color: Colors.amber,
-                    ),
-                    SizedBox(
-                      width: 20.0,
-                    ),
-                    Text(
-                      'madushankamanoj414@gmail.com',
-                      style: TextStyle(
-                          fontSize: 18.0,
-                          fontFamily: 'Source Sans Pro',
-                          color: Colors.teal.shade900),
-                    )
-                  ],
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 5.0,vertical: 2.0),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.email,
+                        size: 20.0,
+                        color: Colors.amber,
+                      ),
+                      SizedBox(
+                        width: 20.0,
+                      ),
+                      Text(
+                        'madushankamanoj414@gmail.com',
+                        style: TextStyle(
+                            fontSize: 18.0,
+                            fontFamily: 'Source Sans Pro',
+                            color: Colors.teal.shade900),
+                      )
+                    ],
+                  ),
                 ),
               ),
             ],
