@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.cyan,
         body: SafeArea(
           child: Column(
-            mainAxisSize:MainAxisSize.min,// this will limit column size to minimum
+            mainAxisSize: MainAxisSize.min,
+            // this will limit column size to minimum
             children: [
               CircleAvatar(
                 radius: 50.0,
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 margin: EdgeInsets.all(10.0),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 5.0,vertical: 2.0),
+                  padding: EdgeInsets.symmetric(horizontal: 5.0, vertical: 2.0),
                   child: Row(
                     children: [
                       Icon(
@@ -69,7 +70,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 margin: EdgeInsets.all(10.0),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 5.0,vertical: 2.0),
+                  padding: EdgeInsets.symmetric(horizontal: 5.0, vertical: 2.0),
                   child: Row(
                     children: [
                       Icon(
@@ -90,6 +91,23 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.all(10.0),
+                child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      size: 20.0,
+                      color: Colors.amber,
+                    ),
+                    title: Text(
+                      'madushankamanoj414@gmail.com',
+                      style: TextStyle(
+                          fontSize: 18.0,
+                          fontFamily: 'Source Sans Pro',
+                          color: Colors.teal.shade900),
+                    )),
               ),
             ],
           ),
